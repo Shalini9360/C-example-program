@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 int main() {
     float rain[12], sum = 0;
