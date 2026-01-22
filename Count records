@@ -1,0 +1,7 @@
+#include <stdio.h>
+struct s{int id;};
+int main(){
+    struct s a[5];
+    printf("Records=5");
+    return 0;
+}
