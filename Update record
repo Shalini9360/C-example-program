@@ -1,0 +1,10 @@
+#include <stdio.h>
+struct p{int id; int qty;};
+int main(){
+    struct p a[3]; int i,id;
+    for(i=0;i<3;i++) scanf("%d %d",&a[i].id,&a[i].qty);
+    scanf("%d",&id);
+    for(i=0;i<3;i++)
+        if(a[i].id==id) scanf("%d",&a[i].qty);
+    return 0;
+}
