@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float exp[5], total = 0;
+    int i;
+    for (i = 0; i < 5; i++) {
+        scanf("%f", &exp[i]);
+        total += exp[i];
+    }
+    printf("Total = %.2f", total);
+    return 0;
+}
