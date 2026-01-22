@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct item{int id;};
+int main(){
+    struct item x[5]; int i,id;
+    for(i=0;i<5;i++) scanf("%d",&x[i].id);
+    scanf("%d",&id);
+    for(i=0;i<5;i++)
+        if(x[i].id==id){ printf("Found"); return 0; }
+    printf("Not Found");
+    return 0;
+}
