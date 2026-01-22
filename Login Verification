@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char u1[]="admin",p1[]="123",u[10],p[10];
+    scanf("%s %s",u,p);
+    if(strcmp(u,u1)==0 && strcmp(p,p1)==0)
+        printf("Login Success");
+    else printf("Invalid Login");
+    return 0;
+}
