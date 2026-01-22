@@ -1,0 +1,15 @@
+#include <stdio.h>
+struct item{int id,qty;};
+
+int main(){
+    struct item a[5];
+    int n=0,ch,i;
+    while(1){
+        scanf("%d",&ch);
+        if(ch==1) scanf("%d %d",&a[n].id,&a[n++].qty);
+        else if(ch==2)
+            for(i=0;i<n;i++) printf("%d %d\n",a[i].id,a[i].qty);
+        else break;
+    }
+    return 0;
+}
